@@ -6,8 +6,9 @@ from __future__ import unicode_literals
 1.  This instruction is based on the following students' homework:
         1.  John Bradburn
         2.  Bharghav Ram Reddy Baddam
-
 2.  Each task has 10 points. 
+3. If the submission is late, 10 points will lose per late day.
+
 """
 
 
