@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "RestHW2.py", line 176, in <module>
+    main()
+  File "RestHW2.py", line 167, in main
+    m_query=rest_query_for_M()
+  File "RestHW2.py", line 41, in rest_query_for_M
+    raw_tweets = api.GetSearch(raw_query=query, geocode=geo, count=100)
+  File "/home/fc/.local/lib/python2.7/site-packages/twitter/api.py", line 530, in GetSearch
+    data = self._ParseAndCheckTwitter(resp.content.decode('utf-8'))
+  File "/home/fc/.local/lib/python2.7/site-packages/twitter/api.py", line 4908, in _ParseAndCheckTwitter
+    self._CheckForTwitterError(data)
+  File "/home/fc/.local/lib/python2.7/site-packages/twitter/api.py", line 4928, in _CheckForTwitterError
+    raise TwitterError(data['errors'])
+twitter.error.TwitterError: [{u'message': u'Query parameters are missing.', u'code': 25}]
+
